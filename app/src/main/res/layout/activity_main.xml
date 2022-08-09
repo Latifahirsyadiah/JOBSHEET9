@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_700" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+        android:background="@color/purple_700" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="220dp"
+        android:background="@color/purple_700" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Latifah Irsyadiah"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</FrameLayout>
